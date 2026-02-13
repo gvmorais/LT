@@ -28,28 +28,32 @@ const Footer: React.FunctionComponent = () => {
         borderRadius="35px">
         <Link
           href="https://www.instagram.com/luz.tuna/"
-          isExternal
+          target="_blank"
+          rel="noopener noreferrer"
           w={['30px', '30px', '30px', '40px', '40px']}
           h={['30px', '30px', '30px', '40px', '40px']}>
           <Icon as={AiFillInstagram} color="white" w="100%" h="100%" />
         </Link>
         <Link
           href="https://www.facebook.com/LUZTUNAE"
-          isExternal
+          target="_blank"
+          rel="noopener noreferrer"
           w={['30px', '30px', '30px', '40px', '40px']}
           h={['30px', '30px', '30px', '40px', '40px']}>
           <Icon as={AiFillFacebook} color="white" w="100%" h="100%" />
         </Link>
         <Link
           href="https://www.youtube.com/@LUZTUNA"
-          isExternal
+          target="_blank"
+          rel="noopener noreferrer"
           w={['30px', '30px', '30px', '40px', '40px']}
           h={['30px', '30px', '30px', '40px', '40px']}>
           <Icon as={AiFillYoutube} color="white" w="100%" h="100%" />
         </Link>
         <Link
           href="https://open.spotify.com/artist/7nndznNEx5Zt9nnBoIs8FP"
-          isExternal
+          target="_blank"
+          rel="noopener noreferrer"
           w={['30px', '30px', '30px', '40px', '40px']}
           h={['30px', '30px', '30px', '40px', '40px']}>
           <Icon as={AiFillSpotify} color="white" w="100%" h="100%" />

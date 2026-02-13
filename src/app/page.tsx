@@ -3,9 +3,9 @@
 import { Box, Flex, Image, Text, useMediaQuery } from '@chakra-ui/react';
 
 const Home: React.FunctionComponent = () => {
-  const [isSmallerThan62em] = useMediaQuery('(min-width: 62em)', {
+  const [isSmallerThan62em] = useMediaQuery(['(min-width: 62em)'], {
     ssr: true,
-    fallback: false,
+    fallback: [false],
   });
   return (
     <>

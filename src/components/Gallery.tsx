@@ -4,6 +4,9 @@ import {
   Grid,
   GridItem,
   Image,
+  Text,
+} from '@chakra-ui/react';
+import {
   Modal,
   ModalBody,
   ModalCloseButton,
@@ -11,8 +14,7 @@ import {
   ModalFooter,
   ModalHeader,
   ModalOverlay,
-  Text,
-} from '@chakra-ui/react';
+} from '@chakra-ui/modal';
 import { useEffect, useState } from 'react';
 
 interface Data {

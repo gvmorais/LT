@@ -2,11 +2,11 @@
 
 import { HamburgerIcon } from '@chakra-ui/icons';
 import {
+  Box,
   Flex,
   IconButton,
   Image,
   Link,
-  Slide,
   Text,
   useMediaQuery,
 } from '@chakra-ui/react';
@@ -14,9 +14,9 @@ import { useState } from 'react';
 import { IoClose } from 'react-icons/io5';
 
 const Navbar: React.FunctionComponent = () => {
-  const [isSmallerThan48em] = useMediaQuery('(min-width: 48em)', {
+  const [isSmallerThan48em] = useMediaQuery(['(min-width: 48em)'], {
     ssr: true,
-    fallback: false,
+    fallback: [false],
   });
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -70,31 +70,38 @@ const Navbar: React.FunctionComponent = () => {
             aria-label="Open Menu"
             size="lg"
             mr={2}
-            icon={<HamburgerIcon />}
             background="white"
             _hover={{ background: 'white' }}
             onClick={() => setMenuOpen(true)}
-          />
-          <Slide in={menuOpen} unmountOnExit>
-            <Flex
+          >
+            <HamburgerIcon />
+          </IconButton>
+          {menuOpen && (
+            <Box
               w="100vw"
               h="100vh"
               zIndex="1000"
               background="white"
               position="fixed"
               top="0"
-              right="0">
-              <IconButton
-                aria-label="Open Menu"
-                size="lg"
-                mr={2}
-                icon={<IoClose />}
-                background="white"
-                _hover={{ background: 'white' }}
-                onClick={() => setMenuOpen(false)}
-                position="fixed"
-                right="0"
-              />
+              right="0"
+              transition="all 0.3s ease-in-out"
+              transform={menuOpen ? 'translateX(0)' : 'translateX(100%)'}
+            >
+              <Flex direction="column" align="center" justify="center" h="100%">
+                <IconButton
+                  aria-label="Close Menu"
+                  size="lg"
+                  mr={2}
+                  background="white"
+                  _hover={{ background: 'white' }}
+                  onClick={() => setMenuOpen(false)}
+                  position="fixed"
+                  right="4"
+                  top="4"
+                >
+                  <IoClose />
+                </IconButton>
               <Flex
                 justifyContent="flex-start"
                 align="center"
@@ -128,7 +135,8 @@ const Navbar: React.FunctionComponent = () => {
                 </Link>
               </Flex>
             </Flex>
-          </Slide>
+          </Box>
+          )}
         </>
       )}
     </Flex>
