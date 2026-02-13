@@ -103,7 +103,20 @@ const Membros: React.FunctionComponent = () => {
       'Zé de Maria',
       'Zé João',
     ],
-    caloiros: ['Bastardo', 'Chatiago', 'DVD', 'É de Xira', 'Estrela', 'GB', 'Jovem', 'Musgueira', 'Salame', 'Samsonite', 'Serra', 'Vidrão'],
+    caloiros: [
+      'Bastardo',
+      'Chatiago',
+      'DVD',
+      'É de Xira',
+      'Estrela',
+      'GB',
+      'Jovem',
+      'Musgueira',
+      'Salame',
+      'Samsonite',
+      'Serra',
+      'Vidrão',
+    ],
   };
   return (
     <>
