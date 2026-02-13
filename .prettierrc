@@ -1,0 +1,20 @@
+{
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "singleQuote": true,
+  "semi": true,
+  "trailingComma": "all",
+  "endOfLine": "auto",
+  "importOrder": [
+    "^react(.*)",
+    "^@emotion|@mui(.*)",
+    "<THIRD_PARTY_MODULES>",
+    "@/(.*)",
+    "^src[./]",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "printWidth": 80,
+  "htmlWhitespaceSensitivity": "strict"
+}
