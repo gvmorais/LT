@@ -55,6 +55,7 @@ const Palmares: React.FunctionComponent = () => {
           objectFit="cover"
           width="100%"
           transform="scale(120%)"
+          alt="LT_Premio.jpg"
         />
       </Box>
       <Flex

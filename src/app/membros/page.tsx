@@ -114,7 +114,7 @@ const Membros: React.FunctionComponent = () => {
       'Estrela Queres Cometa',
       'Falsete',
       'Jovem',
-      'Mastrobar',
+      'Mastro Bar',
       'Paco Bandeira',
       'Paco Naça',
       'Rudi Vulva',
@@ -143,6 +143,7 @@ const Membros: React.FunctionComponent = () => {
           objectFit="cover"
           width="100%"
           transform="scale(100%)"
+          alt="Lt_foto.jpg"
         />
       </Box>
       <Flex

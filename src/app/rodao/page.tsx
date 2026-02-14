@@ -16,6 +16,7 @@ const Sli: React.FunctionComponent = () => {
         w={['200px', '250px', '300px', '350px', '400px']}
         py="1rem"
         zIndex="1"
+        alt="rodao.jpg"
       />
     </Flex>
   );

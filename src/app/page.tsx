@@ -20,6 +20,7 @@ const Home: React.FunctionComponent = () => {
           w="100%"
           h="100%"
           objectFit={['cover', 'cover']}
+          alt="LuzandTuna__Teaser.gif"
         />
       </Box>
       <Flex
@@ -36,6 +37,7 @@ const Home: React.FunctionComponent = () => {
             w={['200px', '250px', '300px', '350px', '400px']}
             pb="1rem"
             zIndex="1"
+            alt="lt_logo.jpg"
           />
         )}
         <Flex
@@ -50,6 +52,7 @@ const Home: React.FunctionComponent = () => {
               src="lt_figueira.png"
               objectFit="cover"
               objectPosition="60% 50%"
+              alt="lt_figueira.png"
             />
           </Box>
           {!isSmallerThan62em && (
@@ -58,6 +61,7 @@ const Home: React.FunctionComponent = () => {
               w={['200px', '250px', '300px', '350px', '400px']}
               py="1rem"
               zIndex="1"
+              alt="lt_logo.jpg"
             />
           )}
           <Flex
@@ -119,6 +123,7 @@ const Home: React.FunctionComponent = () => {
               src="Lt_postura.jpg"
               objectFit="cover"
               objectPosition="60% 55%"
+              alt="Lt_postura.jpg"
             />
           </Box>
         </Flex>

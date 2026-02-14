@@ -9,7 +9,7 @@ const Contactos: React.FunctionComponent = () => {
         height={['20vh', '30vh', '40vh', '50vh', '60vh']}
         width="100%"
         overflow="hidden">
-        <Image src="lusiada.png" objectFit="cover" width="100%" />
+        <Image src="lusiada.png" objectFit="cover" width="100%" alt="lusiada.png" />
       </Box>
       <Flex
         direction="column"
@@ -31,6 +31,7 @@ const Contactos: React.FunctionComponent = () => {
             src="qrcodewhatsapp.png"
             objectFit="cover"
             width={['100px', '150px', '150px', '200px', '200px']}
+            alt="qrcodewhatsapp.png"
           />
           <Text color="black" fontWeight="bold">
             Junta-te a nós!

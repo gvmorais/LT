@@ -132,6 +132,7 @@ export default function Gallery() {
                     key={index}
                     src={item.media_url}
                     objectFit="cover"
+                    alt={`image_${index}.png`}
                   />
                 </GridItem>
               )}
@@ -174,6 +175,7 @@ export default function Gallery() {
                   h="100%"
                   src={selectedPost.media_url}
                   objectFit="cover"
+                  alt="Instagram Image"
                 />
               )}
               {selectedPost?.media_type === 'VIDEO' && (

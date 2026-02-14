@@ -34,7 +34,7 @@ const Navbar: React.FunctionComponent = () => {
       h="88px"
       zIndex="20">
       <Link display="flex" alignItems="center" href="/">
-        <Image src="lt_logo.jpg" height={['36px', '48px', '56px']} />
+        <Image src="lt_logo.jpg" height={['36px', '48px', '56px']} alt="lt_logo.jpg" />
         <Text
           fontSize={['18px', '20px', '24px']}
           paddingLeft="12px"
@@ -113,7 +113,7 @@ const Navbar: React.FunctionComponent = () => {
                   alignItems="center"
                   href="/"
                   flexDirection="column">
-                  <Image src="lt_logo.jpg" height="280px" />
+                  <Image src="lt_logo.jpg" height="280px" alt="lt_logo.jpg" />
                   <Text fontSize="30px" mb="2rem" fontWeight="bold">
                     Luz&Tuna
                   </Text>
