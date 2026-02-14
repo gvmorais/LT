@@ -51,7 +51,7 @@ const Footer: React.FunctionComponent = () => {
           <Icon as={AiFillYoutube} color="white" w="100%" h="100%" />
         </Link>
         <Link
-          href="https://open.spotify.com/artist/7nndznNEx5Zt9nnBoIs8FP"
+          href="https://open.spotify.com/artist/6v7TE5KQ9Mpz3EoTXjMCcO"
           target="_blank"
           rel="noopener noreferrer"
           w={['30px', '30px', '30px', '40px', '40px']}

@@ -50,9 +50,9 @@ const Navbar: React.FunctionComponent = () => {
           <Link href="/">
             <Text margin={['0', '0', '0 5px']}>Página Inicial</Text>
           </Link>
-          <Link href="/galeria">
+          {/* <Link href="/galeria">
             <Text margin={['0', '0', '0 10px']}>Galeria</Text>
-          </Link>
+          </Link> */}
           <Link href="/palmares">
             <Text margin={['0', '0', '0 10px']}>Palmarés</Text>
           </Link>

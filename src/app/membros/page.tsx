@@ -161,8 +161,8 @@ const Membros: React.FunctionComponent = () => {
             'repeat(2, 1fr)',
             'repeat(3, 1fr)',
             'repeat(4, 1fr)',
+            'repeat(5, 1fr)',
             'repeat(6, 1fr)',
-            'repeat(7, 1fr)',
           ]}
           gridTemplateRows={[
             'repeat(1, 1fr)',
@@ -186,11 +186,11 @@ const Membros: React.FunctionComponent = () => {
         <Grid
           mb="2rem"
           gridTemplateColumns={[
+            'repeat(1, 1fr)',
+            'repeat(2, 1fr)',
             'repeat(3, 1fr)',
             'repeat(4, 1fr)',
-            'repeat(6, 1fr)',
-            'repeat(9, 1fr)',
-            'repeat(12, 1fr)',
+            'repeat(5, 1fr)',
           ]}
           gridTemplateRows={[
             'repeat(1, 1fr)',
@@ -199,7 +199,7 @@ const Membros: React.FunctionComponent = () => {
             'repeat(1, 1fr)',
             'repeat(1, 1fr)',
           ]}
-          gridColumnGap={['2px', '4px', '4px', '4px', '4px', '4px']}
+          gridColumnGap={['4px', '6px', '10px', '10px', '10px', '15px']}
           gridRowGap={['2px', '4px', '4px', '4px', '4px', '4px']}>
           {membros.caloiros.map((item, index) => (
             <GridItem key={index} mr="1rem">

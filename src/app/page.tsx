@@ -122,26 +122,6 @@ const Home: React.FunctionComponent = () => {
             />
           </Box>
         </Flex>
-        {/* <Flex
-          justifyContent="center"
-          align="center"
-          flexDirection="column"
-          margin="0 8rem">
-          <Box>TUNOS</Box>
-          Aderente Adónis Africander Amiba Apache Arquiteto Atleta Bico Bilé
-          Bolha Bruno Alves Calado Carapinha Caroço Castratti Catraia Charlão
-          Chiclete Codeas Cristina Caras Lindas Dalai D&aposArtagnan Eco El
-          Marranero Enrabadão Escafiado Estevão Fausto Felps Fernandinho Filho
-          de Maput Fivel Francisco Matos Gipa Gordini Granada Hassan Heavy Jonas
-          Lameiras Lopes de Almeida Manozarra Martins Medeiros Megazord Meias
-          Mokambo Mónica Mosca Mr. Bean Naveia Negativo Nelson Nozes O&aposNeill
-          Pacma Palmelão Pastel Patilhas Peixinho Pepe Pepe Dux Peter Pan
-          Pintelho Pipinho Pipoca Pistolas Piu-Piu Poly Pombo Preto PrimaDonna
-          Psicopata Queixadas Roberto Rocky Rodas Rottweiler Sandocha Silêncio
-          Slimani Sodré Sousa Splinter T22 Tedy Teves Tó Zé Tomate Travolta
-          Tripas Tuto Vinagre Xaps Xica Zé Bubau Zé de Maria Zé João CALOIROS
-          Birotti Jibóia Musgueira Salame Vidrão
-        </Flex> */}
       </Flex>
     </>
   );

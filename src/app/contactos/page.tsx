@@ -18,9 +18,9 @@ const Contactos: React.FunctionComponent = () => {
         backgroundColor="white"
         my={['2rem', '2rem', '4rem', '4rem', '4rem']}>
         <Text color="black" fontWeight="bold">
-          Tomás &quot;Slimani&quot; Silva, Magister Tunae:
+          Filipe &quot;Gipa&quot; Rodrigues, Magister Tunae:
         </Text>
-        <Text color="black">968 742 583</Text>
+        <Text color="black">916 505 534</Text>
         <Text color="black">luz.tuna@gmail.com</Text>
         <Flex
           width={['70%', '50%', '50%', '50%', '25%']}
