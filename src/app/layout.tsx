@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import './globals.css';
@@ -33,6 +34,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </Providers>
+        <SpeedInsights />
       </body>
     </html>
   );
